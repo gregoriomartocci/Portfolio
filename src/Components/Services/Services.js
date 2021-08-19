@@ -8,15 +8,17 @@ import ProgressBar from "../ProgressBar/ProgressBar";
 import Header from "../Header/Header";
 
 const service_1 = [
-  "I develop the  user interface.",
-  "Web page developement.",
-  "I create ux element interactions.",
+  "Developement of the entire project from scratch",
+  "Friendly and clean interfaces.",
+  "All pure styling without external dependencies.",
+  "Sites developed with the lastest web technologies.",
 ];
 
 const service_2 = [
-  "Friendly and clean interfaces.",
-  "Web developed with the lastest technologies.",
-  "Clean code and good practices.",
+  "I work on the backend side including server and database.",
+  "Optimization of the web performance.",
+  "Many options to deploy and publish the website.",
+  "Clean code and good practices. Always trying to not repeat code.",
 ];
 
 function Services() {

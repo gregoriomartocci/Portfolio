@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import photo from "../../assets/profile.jpg";
+import photo from "../../assets/Profile/profile.jpg";
 import Header from "../Header/Header";
 import Download from "./Download/Download";
 

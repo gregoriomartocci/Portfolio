@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import cv from "../../../assets/cv/Gregorio_Martocci_-_EN.pdf";
+import cv from "../../../assets/Resume/Gregorio_Martocci_-_EN.pdf";
 import Button from "../../Button/Button";
 
 const Download = () => {

@@ -1,15 +1,14 @@
 import React, { useState } from "react";
 import "./Slider.css";
-import data from "./data";
 import ButtonSlider from "./ButtonSlider/ButtonSlider";
 
-export default function Slider() {
+export default function Slider({ data }) {
   const [slideIndex, setSlideIndex] = useState(1);
 
   const nextSlide = () => {
-    if (slideIndex !== data.length) {
+    if (slideIndex !== data.img.length) {
       setSlideIndex(slideIndex + 1);
-    } else if (slideIndex === data.length) {
+    } else if (slideIndex === data.img.length) {
       setSlideIndex(1);
     }
   };
@@ -18,7 +17,7 @@ export default function Slider() {
     if (slideIndex !== 1) {
       setSlideIndex(slideIndex - 1);
     } else if (slideIndex === 1) {
-      setSlideIndex(data.length);
+      setSlideIndex(data.img.length);
     }
   };
 
@@ -28,13 +27,13 @@ export default function Slider() {
 
   return (
     <div className="container-slider">
-      {Array.from({ length: 3 }).map((obj, index) => {
+      {data.img.map((_, index) => {
         return (
           <div
             key={index}
             className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
           >
-            <img src={`/pokemon/img${index + 1}.jpg`} alt=""></img>
+            <img src={data.img[index]} alt=""></img>
           </div>
         );
       })}
@@ -43,7 +42,7 @@ export default function Slider() {
       <ButtonSlider moveSlide={prevSlide} direction={"prev"} />
 
       <div className="container-dots">
-        {Array.from({ length: 3 }).map((_, index) => (
+        {data.img.map((_, index) => (
           <div
             key={index}
             onClick={() => moveDot(index + 1)}

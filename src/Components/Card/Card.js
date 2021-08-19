@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
 import "./Card.css";
-import img from "../../assets/Ecommerce-Product-Photography-blog-644x349.jpg";
 import Modal from "../Modal/Modal";
 import Slider from "../Slider/Slider";
 
@@ -15,7 +14,7 @@ export default function Card({ data }) {
   return (
     <>
       <div className="card" onClick={() => setShowModal((prev) => !prev)}>
-        <img className="card-img" src={img}></img>
+        <img className="card-img" src={data.img[0]}></img>
         <div className="project-details">
           <h3 className="project-title">{data.title}</h3>
           <p className="project-description">{data.description}</p>
@@ -23,7 +22,7 @@ export default function Card({ data }) {
       </div>
       <Modal showModal={showModal} setShowModal={closeModal} project={true}>
         <div className="project-container">
-          <Slider></Slider>
+          <Slider data={data}></Slider>
           <div className="about-project">
             <h1>{data.title}</h1>
             <p className="about-description">{data.description}</p>

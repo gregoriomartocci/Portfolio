@@ -43,23 +43,16 @@ export default function Portfolio() {
 
               <li
                 className="portfolio-menu-item"
-                onClick={() => filter("blog")}
-              >
-                Blog
-              </li>
-
-              <li
-                className="portfolio-menu-item"
-                onClick={() => filter("music")}
-              >
-                Music
-              </li>
-
-              <li
-                className="portfolio-menu-item"
-                onClick={() => filter("social network")}
+                onClick={() => filter("social-network")}
               >
                 Social Network
+              </li>
+
+              <li
+                className="portfolio-menu-item"
+                onClick={() => filter("other")}
+              >
+                Other
               </li>
             </ul>
           </nav>
