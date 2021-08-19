@@ -15,13 +15,11 @@ function About() {
 
         <div className="about-right">
           <p className="about-description">
-            I am a Full Stack Web Developer and Designer for the National
-            University of La Plata, I have taken many web development courses
-            and my passion is to create full stack applications with clean and
-            friendly interfaces. I love to be constantly growing and learning
-            new technologies, and working in teams. Here you can see all my
-            projects, right now I'm looking for new job opportunities either as a
-            freelancer or as an employee.
+            I am passionate about design, development and creating friendly
+            interfaces to generate the best user experiences, as well as making
+            scalable and modularized applications always trying to follow best
+            practices. I really like working in a team and transmitting my
+            knowledge to others.
           </p>
 
           <div className="about-badget">
