@@ -31,7 +31,7 @@ const projects = [
     created: "September, 2020",
     updated: "Febrery, 2021",
     labels: "Mongo, Node, Express, React",
-    type: "Utility",
+    type: "Ecommerce",
     status: "in development",
   },
   {
