@@ -23,6 +23,8 @@ const projects = [
       "/img/EcommerceHenry/img3.jpg",
       "/img/EcommerceHenry/img4.jpg",
       "/img/EcommerceHenry/img5.jpg",
+      "/img/EcommerceHenry/img6.jpg",
+      "/img/EcommerceHenry/img7.jpg",
     ],
     description: "Final project for the Henry Bootcamp. This is a Full Stack ",
     large_text: "Ecommerce for the final ",
