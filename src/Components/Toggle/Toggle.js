@@ -5,7 +5,7 @@ import "./Toggle.css";
 function Toggle({ theme, toggleTheme }) {
   return (
     <div onClick={toggleTheme}>
-      {theme === "dark" ? (
+      {theme === "light" ? (
         <i className="moon-icon">
           <FiMoon />
         </i>
