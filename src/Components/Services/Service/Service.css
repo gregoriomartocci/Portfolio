@@ -1,0 +1,27 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 25px;
+  padding: 25px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.service:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.service-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.service-icon {
+  font-size: 45px;
+  color: #e91e63;
+}

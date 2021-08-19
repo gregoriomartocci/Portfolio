@@ -1,0 +1,44 @@
+.services {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 0;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.services-technologies {
+  padding: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+  justify-content: center;
+}
+
+.services-bot {
+  width: 100%;
+}
+
+.service-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.checked-icon {
+  color: #e91e63;
+  font-size: 20px;
+}
+
+.service-p {
+  margin: 0 15px;
+}

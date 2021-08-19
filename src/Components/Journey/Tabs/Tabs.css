@@ -1,0 +1,186 @@
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0.5rem 0;
+  word-break: break-all;
+}
+
+.bloc-tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.tabs {
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+  color: #bdbdbd;
+  border: none;
+  background-color: unset;
+  font-size: 20px;
+}
+
+.tabs-content-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-height: 480px;
+  width: 100%;
+}
+
+.tabs-bar-education {
+  display: flex;
+  width: 1px;
+  border: 0.25px solid #e91e63;
+}
+
+.tabs-bar-work {
+  position: absolute;
+  height: 40%;
+  top: 10px;
+  left: 50%;
+  border: 0.25px solid #e91e63;
+}
+
+.tabs-content-title {
+  font-size: 17px;
+  font-weight: bold;
+  color: #212121;
+  margin: 5px 0;
+}
+
+.tabs-content-place {
+  font-size: 14px;
+  text-align: left;
+  color: #757575;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.tabs-content-date {
+  font-size: 13px;
+  text-align: left;
+  color: #bdbdbd;
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+.tabs-dot-right {
+  position: absolute;
+  left: -7px;
+  top: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #e91e63;
+}
+
+.tabs-dot-left {
+  position: absolute;
+  right: -7px;
+  top: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #e91e63;
+}
+
+.active-tabs {
+  border-bottom: 1px solid transparent;
+  color: #e91e63;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.15rem;
+  background-color: var(--primary-color);
+}
+
+.tabs-button {
+  border: none;
+}
+
+.content-tabs {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.tabs-content {
+  padding: 15px;
+  width: 100%;
+  display: none;
+}
+
+.tabs-content h2 {
+  padding: 0px 0 5px 0px;
+}
+
+.tabs-content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.tabs-content p {
+  width: 100%;
+  height: 100%;
+}
+
+.active-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs-icon {
+  margin: 0 10px;
+}
+
+.tabs-content-block {
+  display: flex;
+  padding: 0px 50px;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+}
+
+.tabs-content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tabs-content-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.align-right {
+  align-items: flex-end;
+}
+
+.align-left {
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 960px) {
+  .tabs-content-block {
+    padding: 0 15px;
+  }
+}
