@@ -43,7 +43,7 @@ function Tabs() {
           <div className="tabs-content-wrapper">
             <div className="tabs-content-left">
               <div className="tabs-content-block align-right">
-                <span className="tabs-content-title">Design</span>
+                <span className="tabs-content-title">Bachelor's degree in design</span>
                 <span className="tabs-content-place">
                   National University of La Plata
                 </span>
@@ -68,7 +68,7 @@ function Tabs() {
 
             <div className="tabs-content-right">
               <div className="tabs-content-block align-left">
-                <span className="tabs-content-title">Computer Science</span>
+                <span className="tabs-content-title">Computer Science (1 year)</span>
                 <span className="tabs-content-place">
                   National University of La Plata
                 </span>

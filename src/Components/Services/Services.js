@@ -11,7 +11,7 @@ const service_1 = [
   "Developement of the entire project from scratch",
   "Friendly and clean interfaces.",
   "All pure styling without external dependencies.",
-  "Sites developed with the lastest web technologies.",
+  "100% Responsive Websites.",
 ];
 
 const service_2 = [
