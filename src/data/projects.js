@@ -18,9 +18,11 @@ const projects = [
   {
     title: "Henry Ecommerce",
     img: [
-      "/img/Pokemon/img1.jpg",
-      "/img/Pokemon/img2.jpg",
-      "/img/Pokemon/img3.jpg",
+      "/img/EcommerceHenry/img1.jpg",
+      "/img/EcommerceHenry/img2.jpg",
+      "/img/EcommerceHenry/img3.jpg",
+      "/img/EcommerceHenry/img4.jpg",
+      "/img/EcommerceHenry/img5.jpg",
     ],
     description: "Final project for the Henry Bootcamp. This is a Full Stack ",
     large_text: "Ecommerce for the final ",
