@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./Card.css";
 import Modal from "../Modal/Modal";
 import Slider from "../Slider/Slider";
+import { Link as Hyperlink } from "react-router-dom";
 
 export default function Card({ data }) {
   const [showModal, setShowModal] = useState(false);
@@ -24,9 +25,23 @@ export default function Card({ data }) {
         <div className="project-container">
           <Slider data={data}></Slider>
           <div className="about-project">
-            <h1>{data.title}</h1>
-            <p className="about-description">{data.description}</p>
-            <p className="about-large-text">{data.large_text}</p>
+            <div>
+              <h1>{data.title}</h1>
+              <p className="about-description">{data.description}</p>
+              <p className="about-large-text">{data.large_text}</p>
+            </div>
+            {data.status === "production" && (
+              <div className="about-project-bot">
+                <Hyperlink
+                  to={{
+                    pathname: "https://store-commerce-pi.vercel.app/",
+                  }}
+                  target="_blank"
+                >
+                  <div className="demo-btn">demo</div>
+                </Hyperlink>
+              </div>
+            )}
           </div>
         </div>
       </Modal>

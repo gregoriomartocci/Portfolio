@@ -13,7 +13,7 @@ const projects = [
     updated: "June, 2021",
     labels: "React, Redux, PostgreSQL, Sequelize, Express",
     type: "Other",
-    status: "in development",
+    status: "development",
   },
   {
     title: "Henry Ecommerce",
@@ -27,12 +27,13 @@ const projects = [
       "/img/EcommerceHenry/img7.jpg",
     ],
     description: "Final project for the Henry Bootcamp. This is a Full Stack ",
-    large_text: "Ecommerce for the final ",
+    large_text:
+      "Ecommerce of electronic devices and computing accesories. This application counts with user authentication, shopping, cart, payments, wishlist admin dashboard, and other features. My responsability in the team was almost all the frontend components such as the product catalogue, cart view, lading page with product sliders, payment steps, login and the hover cart component. This aplication was made by a 6 member group",
     created: "September, 2020",
     updated: "Febrery, 2021",
-    labels: "Mongo, Node, Express, React",
+    labels: "Mongo, Node, Express, React, redux",
     type: "Ecommerce",
-    status: "in development",
+    status: "production",
   },
   {
     title: "Amazon Clone",
@@ -49,7 +50,7 @@ const projects = [
     updated: "Febrery, 2021",
     labels: "Firebase, React",
     type: "Ecommerce",
-    status: "in development",
+    status: "development",
   },
   {
     title: "Yelp Clone",
@@ -61,7 +62,7 @@ const projects = [
     updated: "June, 2021",
     labels: "React",
     type: "social-network",
-    status: "in development",
+    status: "development",
   },
 ];
 
