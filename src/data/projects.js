@@ -26,7 +26,7 @@ const projects = [
       "/img/EcommerceHenry/img6.jpg",
       "/img/EcommerceHenry/img7.jpg",
     ],
-    description: "Final project for the Henry Bootcamp. This is a Full Stack ",
+    description: "Final project for the Henry Bootcamp.",
     large_text:
       "Ecommerce of electronic devices and computing accesories. This application counts with user authentication, shopping, cart, payments, wishlist admin dashboard, and other features. My responsability in the team was almost all the frontend components such as the product catalogue, cart view, lading page with product sliders, payment steps, login and the hover cart component. This aplication was made by a 6 member group",
     created: "September, 2020",
