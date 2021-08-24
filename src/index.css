@@ -4,6 +4,7 @@
   font-family: Montserrat;
   text-decoration: none !important;
   list-style: none;
+  word-break: keep-all;
 }
 
 body {
