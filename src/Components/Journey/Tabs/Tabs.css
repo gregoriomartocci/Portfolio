@@ -36,16 +36,16 @@
 
 .tabs-bar-education {
   display: flex;
-  width: 1px;
+  width: 3px;
   border: 0.25px solid #e91e63;
+  background-color: #e91e63;
 }
 
 .tabs-bar-work {
-  position: absolute;
-  height: 40%;
-  top: 10px;
-  left: 50%;
+  display: flex;
+  width: 3px;
   border: 0.25px solid #e91e63;
+  background-color: #e91e63;
 }
 
 .tabs-content-title {
@@ -74,8 +74,8 @@
   position: absolute;
   left: -7px;
   top: 8px;
-  width: 12px;
-  height: 12px;
+  width: 11px;
+  height: 11px;
   border-radius: 50%;
   background-color: #e91e63;
 }
@@ -84,8 +84,8 @@
   position: absolute;
   right: -7px;
   top: 8px;
-  width: 12px;
-  height: 12px;
+  width: 11px;
+  height: 11px;
   border-radius: 50%;
   background-color: #e91e63;
 }
