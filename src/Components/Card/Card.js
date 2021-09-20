@@ -34,7 +34,7 @@ export default function Card({ data }) {
               <div className="about-project-bot">
                 <Hyperlink
                   to={{
-                    pathname: "https://store-commerce-pi.vercel.app/",
+                    pathname: data.link,
                   }}
                   target="_blank"
                 >

@@ -13,7 +13,8 @@ const projects = [
     updated: "June, 2021",
     labels: "React, Redux, PostgreSQL, Sequelize, Express",
     type: "Other",
-    status: "development",
+    status: "production",
+    link: "https://pokemon-app-gm.herokuapp.com/",
   },
   {
     title: "Henry Ecommerce",
@@ -34,6 +35,7 @@ const projects = [
     labels: "Mongo, Node, Express, React, redux",
     type: "Ecommerce",
     status: "production",
+    link: "https://store-commerce-pi.vercel.app/",
   },
   {
     title: "Amazon Clone",
