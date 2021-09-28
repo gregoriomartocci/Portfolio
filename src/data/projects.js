@@ -64,7 +64,8 @@ const projects = [
     updated: "June, 2021",
     labels: "React",
     type: "social-network",
-    status: "development",
+    status: "production",
+    link: "https://yelp-app-gm.herokuapp.com/",
   },
 ];
 
