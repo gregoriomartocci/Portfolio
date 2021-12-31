@@ -54,10 +54,14 @@ function Tabs() {
                 </span>
               </div>
               <div className="tabs-content-block align-right">
-                <span className="tabs-content-title">Advanced English</span>
-                <span className="tabs-content-place">Project One</span>
+                <span className="tabs-content-title">
+                  Computer Science (1 year)
+                </span>
+                <span className="tabs-content-place">
+                  National University of La Plata
+                </span>
                 <span className="tabs-content-date">
-                  May 2018 - October 2018
+                  May 2019 - November 2020
                 </span>
               </div>
               <div className="tabs-content-block align-right">
@@ -65,7 +69,9 @@ function Tabs() {
                 <span className="tabs-content-place">
                   Henry Coding Bootcamp
                 </span>
-                <span className="tabs-content-date">February 2021 - June 2021</span>
+                <span className="tabs-content-date">
+                  February 2021 - June 2021
+                </span>
               </div>
             </div>
 
@@ -79,13 +85,11 @@ function Tabs() {
 
             <div className="tabs-content-right">
               <div className="tabs-content-block align-left">
-                <span className="tabs-content-title">
-                  Computer Science (1 year)
+                <span className="tabs-content-title">Advanced English</span>
+                <span className="tabs-content-place">Project One</span>
+                <span className="tabs-content-date">
+                  May 2018 - October 2018
                 </span>
-                <span className="tabs-content-place">
-                  National University of La Plata
-                </span>
-                <span className="tabs-content-date">May 2019 - November 2020</span>
               </div>
 
               <div className="tabs-content-block align-left">
@@ -113,7 +117,9 @@ function Tabs() {
                 <span className="tabs-content-place">
                   Multivendor Ecommerce App
                 </span>
-                <span className="tabs-content-date">April 2020 - June 2020</span>
+                <span className="tabs-content-date">
+                  April 2020 - June 2020
+                </span>
               </div>
 
               <div className="tabs-content-block align-right">
