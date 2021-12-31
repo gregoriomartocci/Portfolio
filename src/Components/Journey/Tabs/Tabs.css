@@ -37,8 +37,22 @@
 .tabs-bar-education,
 .tabs-bar-work {
   display: flex;
-  width: 1px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 2px;
+  background-color: #e91e63;
   border: 0.25px solid #e91e63;
+  border-radius: 50px;
+  
+}
+
+.tabs-dot {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #e91e63;
 }
 
 .tabs-content-title {
@@ -61,28 +75,6 @@
   color: #bdbdbd;
   margin: 5px 0;
   font-weight: 600;
-}
-
-.tabs-dot-right {
-  position: absolute;
-  left: -0.5px;
-  top: 8px;
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background-color: #e91e63;
-  transform: translate(-50%, -50%);
-}
-
-.tabs-dot-left {
-  position: absolute;
-  right: -11.5px;
-  top: 8px;
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background-color: #e91e63;
-  transform: translate(-50%, -50%);
 }
 
 .active-tabs {

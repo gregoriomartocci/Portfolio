@@ -59,8 +59,9 @@ export const GlobalStyles = createGlobalStyle`
   color:${({ theme }) => theme.text};
 }
 
+
 .tabs-content-title{
-  color:${({ theme }) => theme.text}; 
+  color:${({ theme }) => theme.text};
 }
 
 .tabs-content-place{
